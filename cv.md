@@ -46,7 +46,7 @@ function addStylesTo(node, text, color = 'red', fontSize) {
 -  *RSScool*
 
 ### Education
--  *RSScool 2021*:+1:
+-  *RSScool 2021* :+1:
 
 ### Languages
 -  *Russian: Native*

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ragnarion-RR.github.io/rsschool-cv/cv

@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
+
+<body class="container">
+  <header class="main-header">
+    <h1>Siarhei Zhauniak</h1>
+    <hr size="3" color= "#b6b3b3" />
+    <hr id="second" size="3" color= "#b6b3b3" />
+  </header>
+
+  <main>
+    <h3>Junior Front-end developer</h3>
+    <h2>Personal Info
+      <ul class="personal information">
+        <li>Adress: Minsk, Belarus</li>
+        <li>e-mail:<a href="#"> ragnarion@gmail.com</a></li>
+        <li><a>phone: +37533-3353278</a></li>
+        <li>GitHub:<a href="https://github.com/ragnarion-RR"> ragnarion-RR</a></li>
+      </ul>
+    </h2>
+
+    <h2>Scills
+      <ul class="personal information">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS (basic)</li>
+        <li>Git</li>
+      </ul>
+    </h2>
+
+    <h2 class="personal information">Code example</h2>
+      <textarea class="code-sample" disabled>
+        <h1 id="Hello">Practice!</h1>
+        <h2 class="h2class" id="h2class">This is heading 2 bitch</h2>
+        
+        <script>
+          const heading = document.getElementById('Hello')
+          const heading2 = document.querySelector('#h2class')
+
+          setTimeout(function() {    
+            addStylesTo(heading, 'практикуйся', 'white', '100px') 
+          }, 1500)
+
+          setTimeout(function() {      
+            addStylesTo(heading2, 'и все получится') 
+          }, 3000)
+
+          function addStylesTo(node, text, color = 'red', fontSize) {    
+            node.textContent = text,
+            node.style.color = color,
+            node.style.textAlign = 'center',
+            node.style.backgroundColor = 'black',
+            node.style.padding = '2rem'
+            if (fontSize) {
+              node.style.fontSize = fontSize
+            }
+          }
+        </script>
+      </textarea>
+
+    <h2>Experience
+      <ul class="personal information">
+        <li><a href="https://htmlacademy.ru/"> HTML Academy</a>: HTML & CSS, lvl 1</li>
+        <li><a href="https://htmlacademy.ru/"> HTML Academy</a>: JavaScript, lvl 1</li>
+        <li><a href="https://htmlacademy.ru/"> HTML Academy</a>: JavaScript, lvl 2</li>
+        <li><a href="https://www.udemy.com/"> Udemy</a>: HTML и CSS, JS</li>
+        <li> RSScool</li>
+      </ul>
+    </h2>
+    
+    <h2>Education
+      <ul class="personal information">
+        <li>RSScool 2021</li>
+      </ul>
+    </h2>
+
+    <h2>Languages
+      <ul class="personal information">
+        <li>Russian: Native</li>
+        <li>English: A+</li>
+      </ul>
+    </h2>
+  </main>
+
+
+  <footer class="main-footer">  
+      <div class="footer-social">
+        <ul>
+          <li><a href="https://github.com/ragnarion-RR"><img src="img/25231.png" width="68" height="50" alt="Логотип GitHub"></a></li>
+          <p></p>
+          <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="368" height="200" alt="Логотип rsschool"></a></li>
+          <li>2021</li>
+        </ul>
+      </div>     
+  </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+  min-width: 760px;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+li {
+  font-style: italic;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-footer {
+  color: #000000;
+  background-color: #b6b3b3;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center ;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+html
+body {
+  max-width: 900px;
+  max-height: 1500px;
+}
+
+#second {
+  margin-top: 30px;
+  height: 3px
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-footer {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.main-footer a{
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.footer-social {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.footer-social li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.code-sample{
+  width:100%;
+  padding-top: 10px;
+  height: 440px;
+  font-family: lucida console,monospace;
+}
